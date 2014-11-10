@@ -1,0 +1,48 @@
+es:
+  title: Scrum Coaching Retreat 2015
+  menu:
+    home: Inicio
+    about: Acerca de
+    schedule: Programa
+    sponsors: Sponsors
+    price: Precio
+    location: Ubicación
+  caption:
+    date: Fecha
+    venue: Sede
+    location: Ubicación
+  button:
+    register: Registrate
+  conference:
+    date: "13 al 15 de Marzo de 2015"
+    venue: Holiday Inn Ezeiza
+    location: "Autopista Ricchieri Km.20, Buenos Aires, Argentina"
+  about:
+    title: Acerca del Retiro de Coaching
+    subtitle: 3 días, 2 noches, 50 coaches
+    text: El Retiro de Scrum Coaching proporciona, tanto a coaches ágiles actuales como aspirantes, la oportunidad de vincularse de manera significativa con sus colegas, bucear profundamente en las prácticas de coaching ágil, mejorar sus habilidades y ampliar sus perspectivas para servir mejor a sus organizaciones. La palabra 'retiro' fue elegido específicamente para representar un 'tiempo fuera', para la conexión profunda, el aprendizaje y el crecimiento profesional y personal.
+  limit:
+    title: 50 coaches
+    subtitle: Trabajo profundo y enfocado
+    text: Hay muchos eventos en los que el aprendizaje amplio tiene lugar - conferencias, reuniones, espacios abiertos, coaching camps, etc. Estos eventos permiten que sean tratados muchos temas en un corto período de tiempo y son buenos para el intercambio de conocimiento en general. Un retiro (retreat) está diseñado para un trabajo enfocado y profundo en pocos temas, posiblemente el mismo tema tratado por varios equipos desde diferentes perspectivas. Un retiro exitoso produce no sólo aprendizaje local en el evento, sino también mucho valor para llevar, resultados documentados, y la colaboración continua en equipo más allá del retiro.
+  agenda:
+    title: Programa
+    subtitle: 3 días, 2 noches
+    text: "Creemos que el marco de Scrum es la mejor manera de establecer una meta y lograr resultados. Para hacer de este retiro un retiro exitoso, vamos a basarnos en Scrum - formaremos equipos, crearemos visiones, construiremos backlogs, haremos múltiples sprints, reviews, retrospectivas, y nos adaptaremos a lo largo del retiro. Esto proporcionará un doble aprendizaje: El equipo descubrirá el enfoque principal de su trabajo al tiempo que inspecciona/adapta su forma de trabajar para lograr el objetivo; además, los participantes vivirán de primera mano el pertenecer a un equipo Scrum y trabajar de una manera muy enfocada e intensa. Un retiro exitoso fomentará la formación de equipos y la ejecución de múltiples sprints para un aprendizaje profundo."
+    day1:
+      title: Día 1
+      date: 13.03.2015
+      registration:
+        title: Registración
+        time: 16:00 - 17:00
+        text: Iniciaremos en la sala "Santander" del hotel Holiday Inn Ezeiza. Justo frente a la puerta, estaremos recibiéndote. Aprovecha este espacio de tiempo para, adicionalmete, ir conociendo a los otros coaches que te acompañarán durante estos tres días.
+      teams:
+        title: Formación de Equipos / Selección de Temas
+        time: 17:00 - 18:00
+        text: 
+    day2:
+      title: Día 2
+      date: 14.03.2015
+    day3:
+      title: Día 3
+      date: 15.03.2015

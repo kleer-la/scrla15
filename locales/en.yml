@@ -1,0 +1,48 @@
+en:
+  title: Scrum Coaching Retreat 2015
+  menu:
+    home: Home
+    about: About
+    schedule: Schedule
+    sponsors: Sponsors
+    price: Price
+    location: Location
+  caption:
+    date: Date
+    venue: Venue
+    location: Location
+  button:
+    register: Register
+  conference:
+    date: "March 13-15, 2015"
+    venue: Holiday Inn Ezeiza
+    location: "Autopista Ricchieri Km.20, Buenos Aires, Argentina"
+  about:
+    title: About the Coaching Retreat
+    subtitle: 3 days, 2 nights, 50 coaches
+    text: Scrum Coaching Retreats provide any current or aspiring Agile coaches the opportunity to engage purposefully with their peers, dive deeply into their practices, enhance their skills, and broaden their perspectives to better serve their client organizations. The word 'retreat' was specifically chosen to represent a time away for deep connection, learning, and growth.
+  limit:
+    title: 50 coaches
+    subtitle: Deep and focused work
+    text: There are many events where broad learning takes place -- conferences, gatherings, open space, coaching camps, etc. These events allow for many topics to be covered in a short time and are good for general knowledge sharing. A retreat is designed for narrow and deep focus on a few topics, possibly the same topic pursued by multiple teams from different perspectives. A successful retreat produces not only local event learning but also takeaway value, documented results, and ongoing team collaboration following the retreat.
+  agenda:
+    title: Retreat Schedule
+    subtitle: 3 days, 2 nights
+    text: "We believe that the Scrum framework is the best way to establish a goal and accomplish results. A successful retreat is based on Scrum - we form teams, create team visions, build backlogs, execute multiple sprints, review, retrospect, and adapt throughout the retreat. This provides for double learning: The team learns about primary focus of their work while inspecting/adapting to accomplish a goal; in addition, participants learn what it is like to be on a team and live Scrum in a very hyper-focused and intense way. A successful retreat will foster the formation of teams and the execution of multiple sprints for deeper learning."
+    day1:
+      title: Day 1
+      date: 13.03.2015
+      registration:
+        title: Registration
+        time: 4PM - 5PM
+        text: The kick-off will take part at the "Santander" room in the Holiday Inn Ezeiza Hotel. Just outside the door, we will welcome you. Take advantage of this timeslot for getting to know the other coaches who will accompany you during these three days.
+      teams:
+        title: Team Formation / Topic Selection
+        time: 5PM - 6PM
+        text: 
+    day2:
+      title: Day 2
+      date: 14.03.2015
+    day3:
+      title: Day 3
+      date: 15.03.2015

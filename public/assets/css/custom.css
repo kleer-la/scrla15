@@ -1,0 +1,13 @@
+.wide .page-section.background-img-slider > .container {
+    background: transparent url("/assets/img/retreat/outside-circle-dark.jpg") 50% 0 repeat !important;
+    background-position: 50% 0 !important;
+    background-size: cover !important;
+}
+
+.defaultCountdown {
+	background-color: rgba(13, 29, 49, 0.3);
+}
+
+.sf-menu a {
+	font-weight: bold;
+}
