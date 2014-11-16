@@ -16,7 +16,7 @@ es:
   conference:
     date: "13 al 15 de Marzo de 2015"
     venue: Holiday Inn Ezeiza
-    location: "Autopista Ricchieri Km.20, Buenos Aires, Argentina"
+    location: "M.M. de Güemes 4718 (Autopista Ricchieri Km.20), Buenos Aires, Argentina"
   about:
     title: Acerca del Retiro de Coaching
     subtitle: 3 días, 2 noches, 50 coaches (se uno de ellos)
@@ -35,14 +35,108 @@ es:
       registration:
         title: Registración
         time: 16:00 - 17:00
-        text: Iniciaremos en la sala "Santander" del hotel Holiday Inn Ezeiza. Justo frente a la puerta, estaremos recibiéndote. Aprovecha este espacio de tiempo para, adicionalmete, ir conociendo a los otros coaches que te acompañarán durante estos tres días.
+        text: Iniciaremos en la sala "Santander" del hotel Holiday Inn Ezeiza. Justo frente a la puerta, estaremos recibiéndote. Aprovecha este espacio de tiempo para, adicionalmete, ir conociendo a los otros coaches con los que estarás colaborando durante estos días.
       teams:
         title: Formación de Equipos / Selección de Temas
         time: 17:00 - 18:00
         text: "Los equipos son el corazón de Scrum y un diferenciador clave en los retiros. Los equipos permiten el intercambio, la colaboración, el aprendizaje y los resultados más impactantes. Reservarnos el tiempo para formar equipos, pasar por la etapas de forming, norming, storming, performing nos ofrece una oportunidad para aprender acerca de los equipos y sobre el tema seleccionado. Los equipos también tienen desafíos - alienación equipo, conflictos de personalidad, las definiciones de liderazgo y rol, experiencia adecuada, diversidad, etc. Trabajar con equipos en un formato de retiro tan corto es un reto y una oportunidad. Un retiro exitoso aprovechará el tiempo de pre y post-retiro para construir relaciones y alargar el ciclo de formación."
+      sprint1:
+        title: Sprint 1
+        time: 18:00 - 20:00
+        text: "Este será el primero de los Sprints de trabajo y co-creación. Arrancamos a todo motor desde el primer día!"
+      dinner:
+        title: Cena
+        time: 20:00 - 22:00
+        text: "Compartiremos el cierre del día en 'El Mangrullo', restaurante cómodamente ubicado dentro de las instalaciones del hotel. No te olvides que tienes las cenas de ambos días incluidas en el precio del retiro."
+      night:
+        title: Networking
+        time: "22:00"
+        text: "Al finalizar la cena, puedes optar por quedarte todo el tiempo que quieras en el bar del hotel junto al resto de los coaches, para continuar debatiendo sobre agilidad, las experiencias compartidas y los desafíos comunes. Tu decides cuándo es hora de ir a dormir."
     day2:
       title: Día 2
       date: 14.03.2015
+      breakfast:
+        time: "7:00 - 9:00"
+        title: "Desayuno"
+        text: "Entre las 7 y las 9 de la mañana, tu eliges la hora en la que deseas desayunar. No te olvides que tienes los desayunos de ambos días incluidos en el precio del retiro."
+      sprint23:
+        time: "9:00 - 13:00"
+        title: "Sprint 2 y 3"
+        text: "Durante la mañana del segundo día seguiremos trabajando iterativamente en los temas seleccionado la noche anterior."
+      lunch:
+        time: "13:00 - 14:00"
+        title: Almuerzo
+        text: "Al mediodía haremos un receso para almorzar en las instalaciones del hotel. No te olvides que tienes los almuerzos de ambos días incluidos en el precio del retiro."
+      sprint45:
+        time: "14:00 - 18:00"
+        title: "Sprint 4 y 5"
+        text: "Durante la tarde del segundo día seguiremos trabajando iterativamente en los temas seleccionado la noche anterior."
+      dinner:
+        time: "21:00 - 22:00"
+        title: "Cena Típica Argentina Al Asador"
+        text: "El Mangrullo es uno de los asadores criollos más tradicionales de Buenos Aires, el sitio obligado a visitar, para quienes buscan donde comer bien en Argentina."
+      night:
+        time: "22:00"
+        title: "Networking"
+        text: "Al finalizar la cena, puedes optar por quedarte todo el tiempo que quieras en el bar del hotel junto al resto de los coaches, para continuar debatiendo sobre agilidad, las experiencias compartidas y los desafíos comunes. Tu decides cuándo es hora de ir a dormir."
     day3:
       title: Día 3
       date: 15.03.2015
+      breakfast:
+        time: "7:00 - 9:00"
+        title: "Desayuno"
+        text: "Entre las 7 y las 9 de la mañana, tu eliges la hora en la que deseas desayunar. No te olvides que tienes los desayunos de ambos días incluidos en el precio del retiro."
+      sprint6:
+        time: "9:00 - 11:00"
+        title: "Sprint 6"
+        text: "Durante la mañana del tercer día realizaremos la última iteración de trabajo colaborativo en los temas seleccionado la noche del día número 1."
+      review:
+        time: "11:00 - 13:00"
+        title: "Review Final"
+        text: "Durante la Review Final, cada equipo de coaches presentará el resultado de sus iteraciones al resto de los coaches participantes del evento."
+      lunch:
+        time: "13:00 - 14:00"
+        title: Almuerzo
+        text: "Al mediodía haremos un receso para almorzar en las instalaciones del hotel. No te olvides que tienes los almuerzos de ambos días incluidos en el precio del retiro."
+      openspace:
+        time: "14:00 - 18:00"
+        title: "Open Space"
+        text: "Un Open Space es un formato de des-conferencia auto-organizada por los propios asistentes. Antes de comenzar se proponen las sesiones y finalmente se conforma la agenda y los horarios dividiéndolos en los tracks o salas. A diferencia de las tradicionales conferencias, se busca que sean sesiones interactivas de debate."
+      closing:
+        time: "18:00 - 19:00"
+        title: "Cierre"
+        text: " "
+  price:
+    title: "Precios"      
+    early_bird:
+      title: Early Bird
+      price: 470
+      applies: "<strong>Los primeros 20 participantes</strong>"
+    normal:
+      title: Precio de Lista
+      price: 600
+      applies: "Los restantes 30 participantes"
+    includes:
+      room: "Alojamiento en Habitación Single (2 noches)"
+      meals: "Desayuno Buffet, Almuerzos y Cenas"
+      gym: "Acceso al Gym, Picina & Spa"
+      shuttle: Transporte gratuito desde/hacia Ezeiza las 24hs
+  faqs:
+    title: "Preguntas Frecuentes"
+    subtitle: "Encuentra tus respuestas"
+    faq1:
+      question: "¿Qué incluye el precio del evento?"
+      answer: "El precio del evento incluye el hospedaje durante las noches del 13 y el 14 de Marzo. Desayunos, almuerzos y cenas desde el 13 de Marzo a las 16hs hasta el 15 de Marzo a las 19hs. No incluye la cena del 15 de Marzo."
+    faq2:
+      question: "¿Puedo acumular SEUs (Scrum Education Units)?"
+      answer: "Si. Puedes acreditarte 20 SEUs (2.5 días) en Categoría A"
+  location:
+    title: "Ubicación"
+    address:
+      line1: "Holiday Inn Ezeiza"
+      line2: "M.M. de Güemes 4718"
+      line3: "(Autopista Ricchieri Km.20)"
+      line4: "Buenos Aires, Argentina"
+      line5: "+5411 6380 2200"
+    email: "Coachingretreats@scrumalliance.org"
+    get_directions: "Cómo llegar"

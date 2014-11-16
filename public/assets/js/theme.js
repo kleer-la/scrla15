@@ -283,13 +283,42 @@ var theme = function () {
         initGoogleMap: function() {
             var map;
             function initialize() {
+
+                var myLatlng = new google.maps.LatLng(-34.733703,-58.519942);
+
+                var infoStr = '<div id="content">'+
+                              '<div id="siteNotice">'+
+                              '</div>'+
+                              '<h1 id="firstHeading" class="firstHeading">Holiday Inn Ezeiza</h1>'+
+                              '<div id="bodyContent">'+
+                              '<p>M.M. de Güemes 4718<br/>(Autopista Ricchieri Km.20)<br/>Buenos Aires, Argentina<br/>+5411 6380 2200</p>'+
+                              '<p><a href=\"http://www.ihg.com/holidayinn/hotels/us/en/buenos-aires/bueez/hoteldetail\" target=\"_blank\">http://ihg.com</a></p>'+
+                              '</div>'+
+                              '</div>';
+
+                var infowindow = new google.maps.InfoWindow({
+                                          content: infoStr
+                                      });
+
                 var mapOptions = {
                     scrollwheel: false,
-                    zoom: 12,
-                    center: new google.maps.LatLng(40.9807648, 28.9866516)
+                    zoom: 15,
+                    center: myLatlng
                 };
+
                 map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
+
+                var marker = new google.maps.Marker({
+                  position: myLatlng,
+                  map: map,
+                  title: 'Holiday Inn Ezeiza'
+                });
+
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open(map,marker);
+                  });
+
             }
             google.maps.event.addDomListener(window, 'load', initialize);
         }

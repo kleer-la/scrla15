@@ -16,7 +16,7 @@ en:
   conference:
     date: "March 13-15, 2015"
     venue: Holiday Inn Ezeiza
-    location: "Autopista Ricchieri Km.20, Buenos Aires, Argentina"
+    location: "M.M. de Güemes 4718 (Autopista Ricchieri Km.20), Buenos Aires, Argentina"
   about:
     title: About the Coaching Retreat
     subtitle: 3 days, 2 nights, 50 coaches (be one of them)
@@ -35,14 +35,108 @@ en:
       registration:
         title: Registration
         time: 4PM - 5PM
-        text: The kick-off will take part at the "Santander" room in the Holiday Inn Ezeiza Hotel. Just outside the door, we will welcome you. Take advantage of this timeslot for getting to know the other coaches who will accompany you during these three days.
+        text: The kick-off will take part at the "Santander" room in the Holiday Inn Ezeiza Hotel. Just outside the door, we will welcome you. Take advantage of this timeslot for getting to know the other coaches with whom you will be collaborating during these days.
       teams:
         title: Team Formation / Topic Selection
         time: 5PM - 6PM
         text: "Teams are the heart of Scrum and a key differentiator in retreats. Teams allow for collaborative sharing, learning, and more impactful results. Allowing teams time to form, norm, storm, and perform provides a rich opportunity for learning about teams and learning on the subject of the team. Teams also have challenges -- team alienation, personality conflicts, leadership and role definitions, appropriate expertise, diversity, etc. Working with teams in such a short retreat format is a challenge and an opportunity. A successful retreat will leverage the pre- and post-retreat time to build relationships and lengthen the forming and norming cycle. It will also clearly articulate the team construct to participants throughout the process."
+      sprint1:
+        title: Sprint 1
+        time: 6PM - 8PM
+        text: "This will be the first of Sprints of work and co-creation. We will start off at full speed from day one!"
+      dinner:
+        title: "Dinner"
+        time: 8PM - 10PM
+        text: "We will share the closing of the day at ‘El Mangrullo’, a restaurant conveniently located inside the hotel. Don’t forget that you have both days dinners included in the retreat price."
+      night:
+        title: Networking Night
+        time: 10PM
+        text: "After dinner, you can choose to stay as long as you want in the hotel bar with the rest of the coaches to continue discussion on agility, shared experiences and common challenges. You decide when it's time to go to sleep."
     day2:
       title: Day 2
       date: 14.03.2015
+      breakfast:
+        time: "7AM - 9AM"
+        title: Breakfast
+        text: "Between 7 and 9 am, you choose the time when you want breakfast. Do not forget that you have breakfast on both days included in the price of the retreat."
+      sprint23:
+        time: "9AM - 1PM"
+        title: "Sprint 2 y 3"
+        text: "On the morning of the second day will continue to work iteratively on the topics selected during the first day."
+      lunch:
+        time: "1PM - 2PM"
+        title: Lunch
+        text: "At noon we will have a break for lunch at the hotel. Do not forget that you have lunch on both days included in the price of the retreat."
+      sprint45:
+        time: "2PM - 6PM"
+        title: "Sprint 4 y 5"
+        text: "On the afternoon of the second day will continue to work iteratively on the topics selected during the first day."
+      dinner:
+        time: "9PM - 10PM"
+        title: "Typical Argentinian Dinner: Al Asador"
+        text: "The Mangrullo is one of the most traditional Creole grills Buenos Aires. One of the must-visit places if you want to eat a great Argentinian Asado."
+      night:
+        time: "10PM"
+        title: "Networking Night"
+        text: "After dinner, you can choose to stay as long as you want in the hotel bar with the rest of the coaches to continue discussion on agility, shared experiences and common challenges. You decide when it's time to go to sleep."
     day3:
       title: Day 3
       date: 15.03.2015
+      breakfast:
+        time: "7AM - 9AM"
+        title: "Breakfast"
+        text: "Between 7 and 9 am, you choose the time when you want breakfast. Do not forget that you have breakfast on both days included in the price of the retreat."
+      sprint6:
+        time: "9AM - 11AM"
+        title: "Sprint 6"
+        text: "During the morning of the third day we will make the latest iteration of collaborative work on selected topics."
+      review:
+        time: "11AM - 1PM"
+        title: "Review"
+        text: "During Final Review each team of coaches present the result of its iterations to the other coaches participating in the event."
+      lunch:
+        time: "1PM - 2PM"
+        title: Lunch
+        text: "At noon we will have a break for lunch at the hotel. Do not forget that you have lunch on both days included in the price of the retreat."
+      openspace:
+        time: "2PM - 6PM"
+        title: "Open Space"
+        text: "Open Space Technology is an approach to purpose-driven meetings, conferences, retreats, symposiums, and community summit events, focused on a specific and important purpose or task — but beginning without any formal agenda, beyond the overall purpose or theme."
+      closing:
+        time: "6PM - 7PM"
+        title: "Closing"
+        text: " "
+  price:
+    title: Prices
+    early_bird:
+      title: Early Bird
+      price: 470
+      applies: "<strong>First 20 participants</strong>"
+    normal:
+      title: Normal Rate
+      price: 600
+      applies: "Remaining 30 participants"
+    includes:
+      room: "Accomodation in Single Room (2 nights)"
+      meals: "Buffet Breakfast, Lunch & Dinner"
+      gym: "Access to Gym, Pool & Spa"
+      shuttle: 24hs Free Airport Shuttle (to/from Ezeiza)
+  faqs:
+    title: "Event FAQs"
+    subtitle: "find your answers"
+    faq1:
+      question: "What does the event price include?"
+      answer: "The price of the event includes accommodations for the nights of 13th and 14th March. Buffet Breakfast, Lunch and Dinner from March 13th 4PM until March 15th to 7PM. Does not include dinner on March 15th."
+    faq2:
+      question: "Can I get SEUs (Scrum Education Units)?"
+      answer: "Yes. You can get 20 SEUs (2.5 days) under Category A"
+  location:
+    title: "Location"
+    address:
+      line1: "Holiday Inn Ezeiza"
+      line2: "M.M. de Güemes 4718"
+      line3: "(Autopista Ricchieri Km.20)"
+      line4: "Buenos Aires, Argentina"
+      line5: "+5411 6380 2200"
+    email: "Coachingretreats@scrumalliance.org"
+    get_directions: "Get Directions"

@@ -57,12 +57,12 @@
 
             <!-- Logo -->
             <div class="logo">
-                <a href="#home" class="scroll-to">
+                <a href="https://twitter.com/hashtag/SCRLA15" target="_blank" class="scroll-to">
                     <span class="fa-stack">
                         <i class="fa logo-hex fa-stack-2x"></i>
-                        <i class="fa logo-fa fa-map-marker fa-stack-1x"></i>
+                        <i class="fa logo-fa fa-twitter fa-stack-1x"></i>
                     </span>
-                    #SCRLA15 - Buenos Aires
+                    #SCRLA15
                 </a>
             </div>
             <!-- /Logo -->
@@ -149,7 +149,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
                                 <div class="media">
                                             <span class="pull-left">
                                                 <i class="fa fa-map-marker fa-2x"></i>
@@ -190,6 +190,30 @@
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+
+                        <a class="twitter-timeline" href="https://twitter.com/hashtag/SCRLA15" data-widget-id="533945022521962496">#SCRLA15 Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /PAGE ABOUT -->
+
+        <!-- Donation -->
+        <section class="page-section color" id="donation">
+            <div class="container">
+                <h1 class="section-title">
+                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><%=t "limit.title"%> <small> / <%=t "limit.subtitle"%></small></span>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-8">
+                		<p><%=t "limit.text"%></p>
+                		<a href="https://www.regonline.com/scrumcoachingretreatlatam" class="btn btn-theme" data-animation="flipInY" data-animation-delay="200"><%=t "button.register" %> <i class="fa fa-arrow-circle-right"></i></a>
+                	</div>
+
+                	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
 
                         <!-- Thumbnails -->
                         <div class="row thumbnails">
@@ -259,20 +283,6 @@
 
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- /PAGE ABOUT -->
-
-        <!-- Donation -->
-        <section class="page-section color" id="donation">
-            <div class="container">
-                <h1 class="section-title">
-                    <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
-                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><%=t "limit.title"%> <small> / <%=t "limit.subtitle"%></small></span>
-                </h1>
-                <p><%=t "limit.text"%></p>
-
-                <a href="https://www.regonline.com/scrumcoachingretreatlatam" class="btn btn-theme" data-animation="flipInY" data-animation-delay="200"><%=t "button.register" %> <i class="fa fa-arrow-circle-right"></i></a>
 
             </div>
         </section>
@@ -368,19 +378,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-3.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint1.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 18:00 - 20:00</span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.sprint1.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Sprint 1</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.sprint1.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p></p>
+                                                            <p><%=t "agenda.day1.sprint1.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -392,19 +402,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-cena.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 20:00 - 22:00</span>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.dinner.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Dinner</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.dinner.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p></p>
+                                                            <p><%=t "agenda.day1.dinner.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -416,25 +426,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-networking.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 22:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day1.night.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Good Night!</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day1.night.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p></p>
+                                                            <p><%=t "agenda.day1.night.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -461,25 +465,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-2.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-desayuno.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 7:00 - 9:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.breakfast.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Desayuno</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.breakfast.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.breakfast.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -491,25 +489,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-2.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint23.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 9:00 - 13:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.sprint23.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Sprint 2 y 3</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.sprint23.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.sprint23.text"%>.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -521,25 +513,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-1.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-almuerzo.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 13:00 - 14:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.lunch.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Almuerzo</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.lunch.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.lunch.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -551,25 +537,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-3.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint45.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 14:00 - 18:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.sprint45.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Sprint 4 y 5</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.sprint45.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.sprint45.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -581,25 +561,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-asador.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 20:00 - 22:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.dinner.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Cena</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.dinner.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.dinner.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -611,25 +585,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-networking.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 22:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day2.night.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Good Night!</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day2.night.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day2.night.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -656,25 +624,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-2.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-desayuno.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 7:00 - 9:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.breakfast.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Desayuno</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.breakfast.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.breakfast.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -686,25 +648,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-2.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-sprint6.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 9:00 - 13:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.sprint6.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Sprint 2 y 3</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.sprint6.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.sprint6.text"%></a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -716,25 +672,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-1.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-review.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 13:00 - 14:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.review.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Almuerzo</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.review.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.review.text"%></a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -746,25 +696,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-3.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-almuerzo.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 14:00 - 18:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.lunch.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Sprint 4 y 5</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.lunch.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.lunch.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -776,25 +720,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-openspace.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 20:00 - 22:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.openspace.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Cena</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.openspace.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.openspace.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -806,25 +744,19 @@
                                             <div class="media">
                                                 <!-- -->
                                                 <div class="post-media pull-left">
-                                                    <img src="/assets/img/preview/avatar-v2-4.jpg" alt="" class="media-object" />
+                                                    <img src="/assets/img/retreat/agenda-closing.jpg" alt="" class="media-object" />
                                                 </div>
                                                 <!-- -->
                                                 <div class="media-body">
                                                     <div class="post-header">
                                                         <div class="post-meta">
-                                                            <span class="post-date"><i class="fa fa-clock-o"></i> 22:00</span>
-                                                            <a href="#" class="pull-right">
-                                                                <span class="fa-stack fa-lg">
-                                                                    <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                    <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                </span>
-                                                            </a>
+                                                            <span class="post-date"><i class="fa fa-clock-o"></i> <%=t "agenda.day3.closing.time"%></span>
                                                         </div>
-                                                        <h2 class="post-title"><a href="#">Good Night!</a></h2>
+                                                        <h2 class="post-title"><a href="#"><%=t "agenda.day3.closing.title"%></a></h2>
                                                     </div>
                                                     <div class="post-body">
                                                         <div class="post-excerpt">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor.</p>
+                                                            <p><%=t "agenda.day3.closing.text"%></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1121,68 +1053,47 @@
             <div class="container">
                 <h1 class="section-title clearfix">
                     <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-user fa-stack-1x"></i></span></span>
-                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Event Price list <small> / perfect price for event</small></span>
+                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><%=t "price.title"%></span>
                 </h1>
                 <div class="row price-tables">
-                    <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
-                        <div class="price-table" data-animation="fadeInUp" data-animation-delay="100">
+                    <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="price-table featured" data-animation="fadeInUp" data-animation-delay="100">
                             <div class="price-table-header">
                                 <div class="price-label">
-                                    <h2 class="price-label-title">Personal</h2>
+                                    <h2 class="price-label-title"><%=t "price.early_bird.title"%></h2>
                                 </div>
                                 <div class="price-value">
-                                    <span class="price-number">111</span><span class="price-unit">$</span><span class="price-per"></span>
+                                    <span class="price-unit">USD</span><span class="price-number"><%=t "price.early_bird.price"%></span>
                                 </div>
                             </div>
                             <div class="price-table-rows">
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Lorem ipsum dolor sit amet</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Consectetur adipiscing elit</div>
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Sed vitae diam metus</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Donec cursus magna</div>
+                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> <%=t "price.early_bird.applies"%></div>
+                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.room"%></div>
+                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.meals"%></div>
+                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.shuttle"%></div>
                                 <div class="price-table-row-bottom">
-                                    <a class="btn btn-theme scroll-to" href="#register">Register</a>
+                                    <a class="btn btn-theme" href="https://www.regonline.com/scrumcoachingretreatlatam"><%= t "button.register" %></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
-                        <div class="price-table featured" data-animation="fadeInUp" data-animation-delay="200">
+                    <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="price-table" data-animation="fadeInUp" data-animation-delay="200">
                             <div class="price-table-header">
                                 <div class="price-label">
-                                    <h2 class="price-label-title">Company</h2>
+                                    <h2 class="price-label-title"><%=t "price.normal.title"%></h2>
                                 </div>
                                 <div class="price-value">
-                                    <span class="price-number">124</span><span class="price-unit">$</span><span class="price-per"></span>
+                                    <span class="price-unit">USD</span><span class="price-number"><%=t "price.normal.price"%></span>
                                 </div>
                             </div>
                             <div class="price-table-rows">
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Lorem ipsum dolor sit amet</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Consectetur adipiscing elit</div>
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Sed vitae diam metus</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Donec cursus magna</div>
+                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> <%=t "price.normal.applies"%></div>
+                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.room"%></div>
+                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.meals"%></div>
+                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> <%=t "price.includes.shuttle"%></div>
                                 <div class="price-table-row-bottom">
-                                    <a class="btn btn-theme scroll-to" href="#register">Register</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xsp-6 col-sm-6 col-md-6 col-lg-4">
-                        <div class="price-table" data-animation="fadeInUp" data-animation-delay="300">
-                            <div class="price-table-header">
-                                <div class="price-label">
-                                    <h2 class="price-label-title">Business</h2>
-                                </div>
-                                <div class="price-value">
-                                    <span class="price-number">175</span><span class="price-unit">$</span><span class="price-per"></span>
-                                </div>
-                            </div>
-                            <div class="price-table-rows">
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Lorem ipsum dolor sit amet</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Consectetur adipiscing elit</div>
-                                <div class="price-table-row"><i class="fa fa-check-circle-o"></i> Sed vitae diam metus</div>
-                                <div class="price-table-row odd"><i class="fa fa-check-circle-o"></i> Donec cursus magna</div>
-                                <div class="price-table-row-bottom">
-                                    <a class="btn btn-theme scroll-to" href="#register">Register</a>
+                                    <a class="btn btn-theme" href="https://www.regonline.com/scrumcoachingretreatlatam"><%= t "button.register" %></a>
                                 </div>
                             </div>
                         </div>
@@ -1198,99 +1109,33 @@
                     <div class="col-md-8 pull-left">
                         <h1 class="section-title">
                             <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-question fa-stack-1x"></i></span></span>
-                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Event FAQS <small> / find your answers</small></span>
+                            <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner"><%=t "faqs.title"%> <small> / <%=t "faqs.subtitle"%></small></span>
                         </h1>
-                    </div>
-                    <div class="col-md-4 text-right-md pull-right">
-                        <a href="#" class="btn btn-theme btn-theme-lg btn-theme-transparent-grey pull-right"
-                           data-animation="flipInY" data-animation-delay="700"><i class="fa fa-pencil"></i> Open a ticket</a>
                     </div>
                 </div>
                 <div class="row faq margin-top" data-animation="fadeInUp" data-animation-delay="100">
                     <div class="col-sm-6 col-md-6 pull-left">
                         <ul id="tabs-faq"  class="nav">
-                            <li class="active"><a href="#tab-faq1" data-toggle="tab"><i class="fa fa-angle-right"></i> <span class="faq-inner">How to Change Event Date</span></a></li>
-                            <li><a href="#tab-faq2" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">How to make  New Event ?</span></a></li>
-                            <li><a href="#tab-faq3" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">How to Set Price ?</span></a></li>
-                            <li><a href="#tab-faq4" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">How to Delete Old Events ?</span></a></li>
+
+                            <li class="active"><a href="#tab-faq1" data-toggle="tab"><i class="fa fa-angle-right"></i> <span class="faq-inner"><%=t "faqs.faq1.question"%></span></a></li>
+                            
+                            <li><a href="#tab-faq2" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner"><%=t "faqs.faq2.question"%></span></a></li>
+                        
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-6 pull-right">
                         <div class="tab-content">
                             <div id="tab-faq1" class="tab-pane fade in active">
                                 <div>
-                                    <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis
-                                        tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et,
-                                        fermentum varius ligula. Nulla dignissim nulla eget congue cursus. </p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                    </div>
+                                    <p><%=t "faqs.faq1.answer"%></p>
                                 </div>
                             </div>
                             <div id="tab-faq2" class="tab-pane fade">
                                 <div>
-                                    <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis
-                                        tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et,
-                                        fermentum varius ligula. Nulla dignissim nulla eget congue cursus. </p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                    </div>
+                                    <p><%=t "faqs.faq2.answer"%><br/>&nbsp;<br/>&nbsp;<br/>&nbsp;</p>
                                 </div>
                             </div>
-                            <div id="tab-faq3" class="tab-pane fade">
-                                <div>
-                                    <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis
-                                        tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et,
-                                        fermentum varius ligula. Nulla dignissim nulla eget congue cursus. </p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tab-faq4" class="tab-pane fade">
-                                <div>
-                                    <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis
-                                        tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et,
-                                        fermentum varius ligula. Nulla dignissim nulla eget congue cursus. </p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                            <p><i class="fa fa-check-circle-o"></i> First Awesome Feature</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1307,15 +1152,16 @@
                     <div class="on-gmap color">
                         <h1 class="section-title">
                             <span data-animation="flipInY" data-animation-delay="100" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
-                            <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Event Location</span>
+                            <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner"><%=t "location.title"%></span>
                         </h1>
-                        <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase">Apple Store SOHO‎ <br/>
-                            103 Prince St New York, <br/>
-                            NY 10012, United States <br/>
-                            +1 212-226-3126</p>
-                        <p><a href="mailto:youremail@domain.com">hello@imevent.com</a></p>
+                        <p data-animation="fadeInUp" data-animation-delay="200" class="text-uppercase"><%=t "location.address.line1"%> <br/>
+                            <%=t "location.address.line2"%>, <br/>
+                            <%=t "location.address.line3"%> <br/>
+                            <%=t "location.address.line4"%> <br/>
+                            <%=t "location.address.line5"%></p>
+                        <p><a href="mailto:<%=t "location.email"%>"><small><%=t "location.email"%></small></a></p>
                         <a href="#" class="btn btn-theme"
-                           data-animation="flipInY" data-animation-delay="300">Get Direction <i class="fa fa-arrow-circle-right"></i></a>
+                           data-animation="flipInY" data-animation-delay="300"><%=t "location.get_directions"%> <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -1329,8 +1175,7 @@
         </section>
         <!-- /PAGE LOCATION -->
 
-        <!-- PAGE CONTACT -->
-        <section class="page-section color">
+        <!-- CONTACT section class="page-section color">
             <div class="container">
 
                 <h1 class="section-title">
@@ -1338,7 +1183,6 @@
                     <span data-animation="fadeInRight" data-animation-delay="100" class="title-inner">Contact Us <small>/ lorem ipsum</small></span>
                 </h1>
 
-                <!-- Contact form -->
                 <form name="af-form" method="post" action="#contact" class="af-form row" id="af-form">
 
                     <div class="col-sm-12 af-outer af-required">
@@ -1375,11 +1219,9 @@
                     </div>
 
                 </form>
-                <!-- /Contact form -->
 
             </div>
-        </section>
-        <!-- /PAGE CONTACT -->
+        </section /CONTACT -->
 
     </div>
     <!-- /Content area -->
@@ -1390,16 +1232,16 @@
             <div class="container text-center">
                 <div class="clearfix">
                     <ul class="social-line list-inline">
-                        <li data-animation="flipInY" data-animation-delay="100"><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li data-animation="flipInY" data-animation-delay="200"><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                        <li data-animation="flipInY" data-animation-delay="100"><a href="https://twitter.com/hashtag/SCRLA15" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <!-- li data-animation="flipInY" data-animation-delay="200"><a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
                         <li data-animation="flipInY" data-animation-delay="300"><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <li data-animation="flipInY" data-animation-delay="400"><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
                         <li data-animation="flipInY" data-animation-delay="500"><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
                         <li data-animation="flipInY" data-animation-delay="600"><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li data-animation="flipInY" data-animation-delay="700"><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>
+                        <li data-animation="flipInY" data-animation-delay="700"><a href="#" class="skype"><i class="fa fa-skype"></i></a></li -->
                     </ul>
                 </div>
-                <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; 2014 im Event &#8212; An One Page Event Manager Theme made with passion by jThemes Studio</span>
+                <span class="copyright" data-animation="fadeInUp" data-animation-delay="100">&copy; 2014-2015 Scrum Alliance</span>
             </div>
         </div>
     </footer>
@@ -1428,7 +1270,7 @@
 <script src="/assets/plugins/waypoints/waypoints.min.js"></script>
 <script src="/assets/plugins/countdown/jquery.plugin.min.js"></script>
 <script src="/assets/plugins/countdown/jquery.countdown.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=<%=I18n.locale%>"></script>
 
 <script src="/assets/js/theme-ajax-mail.js"></script>
 <script src="/assets/js/theme.js"></script>
