@@ -8,6 +8,9 @@ require 'json'
 require 'rss'
 require 'i18n'
 
+require File.join(File.dirname(__FILE__),'lib/twitter_card')
+require File.join(File.dirname(__FILE__),'lib/facebook_open_graph')
+
 helpers do
   
   def t(key, ops = Hash.new)
@@ -39,18 +42,16 @@ before '/:locale/*' do
     session[:locale] = locale
     request.path_info = '/' + params[:splat][0]
     
-     #@page_title = t("martin.name") + " | Agile Coach & Trainer"
+      @twitter_card = TwitterCard.new
+      @twitter_card.card_type = "summary"
+      @twitter_card.site = "@scrumalliance"
+      @twitter_card.creator = "@scrumalliance"
+      @twitter_card.image_url = "http://scrum.coachingretreat.la/assets/img/retreat/social.jpg"
 
-#      @twitter_card = TwitterCard.new
-#      @twitter_card.card_type = "summary"
-#      @twitter_card.site = "@martinalaimo"
-#      @twitter_card.creator = "@martinalaimo"
-#      @twitter_card.image_url = "http://www.gravatar.com/avatar/e92b3ae0ce91e1baf19a7bc62ac03297?s=100"
-
-#      @facebook_og = FacebookOpenGraph.new
-#      @facebook_og.site_name = t("martin.name")
-#      @facebook_og.og_type = "blog"
-#      @facebook_og.image = @twitter_card.image_url
+      @facebook_og = FacebookOpenGraph.new
+      @facebook_og.site_name = ""
+      @facebook_og.og_type = "blog"
+      @facebook_og.image = @twitter_card.image_url
 
 #      @active_section = ""
       flash.sweep 
@@ -61,11 +62,11 @@ get '/' do
     
 #  @active_section = "index"
 
-#  @twitter_card.title = @page_title
-#  @twitter_card.description = t("martin.twittercard.bio")
+  @twitter_card.title = "Scrum Coaching Retreat Latin America 2015 - Buenos Aires"
+  @twitter_card.description = t "about.text"
   
-#  @facebook_og.title = @twitter_card.title
-#  @facebook_og.description = @twitter_card.description
+  @facebook_og.title = @twitter_card.title
+  @facebook_og.description = @twitter_card.description
   
   erb :index
   
